@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div id="form-container">
+                <div class="step-row">
+                    <div class="steps" id = "progress">
+                        <div class="step-col step1"><small>Step 1</small></div>
+                        <div class="step-col step2"><small>Step 2</small></div>
+                        <div class="step-col step3"><small>Step 3</small></div>
+                    </div>
+                </div>
+                <p class="head-text">Create Account</p>
+                <form action="#">
+                    <div class="account forms">
+                        <input type="text" placeholder="Email" required>
+                        <input type="password" placeholder="Password" required>
+                        <input type="password" placeholder="Confirm Password" required>
+                    </div>
+                    <div class="personal forms">
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                        <input type="number" placeholder="Phone Num" required>
+                    </div>
+                    <div class="links forms">
+                        <input type="url" placeholder="Github" required>
+                        <input type="url" placeholder="Linked In" required>
+                        <input type="url" placeholder="LeetCode" required>
+                    </div>
+                </form>
+                <div class="btn">
+                    <button class="btns back">Back</button>
+                    <button class="btns next">Next</button>
+                    <button class="btns submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
